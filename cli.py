@@ -5,6 +5,7 @@ print("TODO LIST APP\nThis app will help you create your todo list and saves whe
 print("\nIMPORTANT!!!\nIf this is ur first time using app, please type help first!!!\n\n")
 
 current_time = time.strftime("%B, %D, %A, %Y %I:%M:%S %p")
+print("The time is below: ")
 print("It is: ", current_time)
 while True:
     user_action = input("Enter Add, Show, Edit, Complete or Exit: ")
